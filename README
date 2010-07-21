@@ -1,0 +1,18 @@
+This repository contains a client and a server app written in Rails to illustrate the 
+ActiveResource TDD approach presented on 7/20/2010 at the East Bay Ruby Meetup.
+
+To play with the code, run the server:
+
+cd ebr_server
+script/server -e test -p 3100
+
+From a different shell, run the client remote specs:
+
+cd ebr_client
+spec spec/remote_models/person_remote_spec.rb 
+
+We hope to turn this into a gem soon.
+
+(c) 2010 Wolfram Arnold, Kurt Snyder, Papercheck.com LLC
+www.rubyfocus.biz
+
